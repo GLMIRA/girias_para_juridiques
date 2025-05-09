@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gírias para Juridiquês</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Como você diria isso em "Juridiquês"?</h1>
+    <textarea id="userAnswer" placeholder="Digite sua resposta..."></textarea>
+    <button onclick="submitAnswer()">Enviar</button>
+  </div>
+
+  <script>
+    function submitAnswer() {
+      const answer = document.getElementById('userAnswer').value;
+      console.log('Resposta enviada:', answer);
+      alert("Resposta enviada! (simulada)");
+    }
+  </script>
+</body>
+</html>
